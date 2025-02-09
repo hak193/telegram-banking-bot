@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row">
+    <!-- Bot Status Card -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Bot Status</h5>
+            </div>
+            <div class="card-body">
+                <div class="d-flex align-items-center">
+                    <div id="status-indicator" class="status-dot {% if bot_running %}bg-success{% else %}bg-danger{% endif %}"></div>
+                    <span class="ms-2">{{ "Running" if bot_running else "Stopped" }}</span>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="toggleBot()">
+                        {{ "Stop Bot" if bot_running else "Start Bot" }}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Stats Card -->
+    <div class="col-md-8 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Quick Stats</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="stat-box">
+                            <h6>Total Users</h6>
+                            <h3>{{ total_users }}</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-box">
+                            <h6>Commands Today</h6>
+                            <h3>{{ commands_today }}</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-box">
+                            <h6>Active Sessions</h6>
+                            <h3>{{ active_sessions }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Recent Activity -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Recent Activity</h5>
+            </div>
+            <div class="card-body">
+                <div class="activity-list">
+                    {% for activity in recent_activities %}
+                    <div class="activity-item">
+                        <div class="activity-time">{{ activity.time }}</div>
+                        <div class="activity-details">
+                            <strong>{{ activity.user }}</strong>
+                            {{ activity.action }}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Command Usage Chart -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Command Usage</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="commandChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

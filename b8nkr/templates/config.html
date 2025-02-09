@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Bot Configuration</h5>
+            </div>
+            <div class="card-body">
+                <form class="config-form" onsubmit="saveConfig(event)">
+                    <!-- Telegram Configuration -->
+                    <div class="mb-4">
+                        <h6 class="mb-3">Telegram Settings</h6>
+                        <div class="form-group">
+                            <label for="telegram_token">Bot Token</label>
+                            <div class="input-group">
+                                <input type="text" 
+                                       class="form-control" 
+                                       id="telegram_token" 
+                                       name="telegram_token"
+                                       value="{{ config.telegram_token }}"
+                                       required>
+                                <button class="btn btn-outline-secondary" 
+                                        type="button" 
+                                        onclick="togglePassword('telegram_token')"
+                                        data-bs-toggle="tooltip"
+                                        title="Toggle visibility">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Twilio Configuration -->
+                    <div class="mb-4">
+                        <h6 class="mb-3">Twilio Settings</h6>
+                        <div class="form-group">
+                            <label for="twilio_account_sid">Account SID</label>
+                            <div class="input-group">
+                                <input type="text" 
+                                       class="form-control" 
+                                       id="twilio_account_sid" 
+                                       name="twilio_account_sid"
+                                       value="{{ config.twilio_account_sid }}"
+                                       required>
+                                <button class="btn btn-outline-secondary" 
+                                        type="button" 
+                                        onclick="togglePassword('twilio_account_sid')"
+                                        data-bs-toggle="tooltip"
+                                        title="Toggle visibility">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="twilio_auth_token">Auth Token</label>
+                            <div class="input-group">
+                                <input type="password" 
+                                       class="form-control" 
+                                       id="twilio_auth_token" 
+                                       name="twilio_auth_token"
+                                       value="{{ config.twilio_auth_token }}"
+                                       required>
+                                <button class="btn btn-outline-secondary" 
+                                        type="button" 
+                                        onclick="togglePassword('twilio_auth_token')"
+                                        data-bs-toggle="tooltip"
+                                        title="Toggle visibility">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="twilio_phone_number">Phone Number</label>
+                            <input type="text" 
+                                   class="form-control" 
+                                   id="twilio_phone_number" 
+                                   name="twilio_phone_number"
+                                   value="{{ config.twilio_phone_number }}"
+                                   required>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Save Configuration</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function togglePassword(inputId) {
+    const input = document.getElementById(inputId);
+    const type = input.type === 'password' ? 'text' : 'password';
+    input.type = type;
+    
+    const icon = event.currentTarget.querySelector('i');
+    icon.className = type === 'password' ? 'bi bi-eye' : 'bi bi-eye-slash';
+}
+</script>
+{% endblock %}
