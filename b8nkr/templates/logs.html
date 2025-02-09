@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">Bot Logs</h5>
+            </div>
+            <div class="card-body">
+                <div id="logContainer" class="log-container" style="height: 500px; overflow-y: auto;">
+                    <!-- Log entries will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const logContainer = document.getElementById('logContainer');
+    const eventSource = new EventSource('/log_stream');
+    
+    eventSource.onmessage = function(event) {
+        const logEntry = document.createElement('div');
+        logEntry.className = 'log-entry';
+        logEntry.textContent = event.data;
+        logContainer.appendChild(logEntry);
+        
+        // Auto-scroll to bottom
+        logContainer.scrollTop = logContainer.scrollHeight;
+        
+        // Limit number of visible logs
+        while (logContainer.children.length > 100) {
+            logContainer.removeChild(logContainer.firstChild);
+        }
+    };
+
+    // Handle connection errors
+    eventSource.onerror = function(error) {
+        console.error('EventSource failed:', error);
+        eventSource.close();
+    };
+});
+</script>
+{% endblock %}

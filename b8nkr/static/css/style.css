@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Status Indicator */
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bg-success {
+    background-color: #28a745;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+}
+
+/* Stat Boxes */
+.stat-box {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.stat-box h6 {
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.stat-box h3 {
+    color: #343a40;
+    margin: 0;
+}
+
+/* Activity List */
+.activity-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.activity-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.activity-item:last-child {
+    border-bottom: none;
+}
+
+.activity-time {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.activity-details {
+    margin-top: 5px;
+}
+
+/* Cards */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Configuration Form */
+.config-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.config-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Command List */
+.command-list {
+    list-style: none;
+    padding: 0;
+}
+
+.command-item {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.command-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Logs */
+.log-entry {
+    font-family: monospace;
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.log-entry:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Charts */
+canvas {
+    max-width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .stat-box {
+        margin-bottom: 15px;
+    }
+}
