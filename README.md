@@ -8,27 +8,41 @@ A secure Telegram bot for banking operations with OTP verification via Twilio SM
 - 💰 Check account balance
 - 📤 Send and request money
 - 📱 User profile management
-- 🌐 Web app integration
 - 📊 Transaction history
 - ⚡ Rate limiting and security measures
 
+## Prerequisites
+
+1. Python 3.8 or higher
+2. A Telegram Bot Token (from [@BotFather](https://t.me/botfather))
+3. Twilio Account (for SMS OTP)
+
 ## Setup
 
-1. Install dependencies:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/telegram-banking-bot.git
+cd telegram-banking-bot
+```
+
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Create a `.env` file with your credentials:
-```env
-TELEGRAM_TOKEN=your_telegram_bot_token
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
-WEBAPP_URL=your_webapp_url
+3. Copy `.env.example` to `.env` and update with your credentials:
+```bash
+cp .env.example .env
 ```
 
-3. Run the bot:
+4. Update the following variables in `.env`:
+- `TELEGRAM_TOKEN`: Your Telegram bot token
+- `TWILIO_ACCOUNT_SID`: Your Twilio Account SID
+- `TWILIO_AUTH_TOKEN`: Your Twilio Auth Token
+- `TWILIO_PHONE_NUMBER`: Your Twilio phone number
+
+## Running the Bot
+
 ```bash
 python bot.py
 ```
@@ -37,10 +51,10 @@ python bot.py
 
 - 🔒 Cryptographically secure OTP generation
 - ⏱️ OTP expiry after 5 minutes
-- 🛡️ Rate limiting for OTP requests and verification attempts
-- 🔍 Phone number validation and formatting
+- 🛡️ Rate limiting for OTP requests (3 per 5 minutes)
+- 🔍 Rate limiting for verification attempts (5 per 5 minutes)
 - 🧹 Automatic cleanup of expired data
-- 🔐 Secure web app data validation
+- 📱 Phone number validation and formatting
 
 ## Commands
 
@@ -53,33 +67,16 @@ python bot.py
 - `/cancel` - Cancel current operation
 - `/help` - Show help message
 
-## Development
-
-The bot is built with:
-- python-telegram-bot for Telegram API integration
-- Twilio for SMS OTP delivery
-- Flask for web app integration
-- Cryptography for secure OTP generation
-- Python-dotenv for environment management
-
 ## Rate Limits
 
 - OTP Requests: 3 requests per 5 minutes
 - OTP Verification: 5 attempts per 5 minutes
-- Maximum transfer amount: $1,000 per transaction
-
-## Security Best Practices
-
-1. Never share your OTP with anyone
-2. Keep your phone number up to date
-3. Use strong passwords for your account
-4. Monitor your transaction history regularly
-5. Contact support if you notice suspicious activity
+- Maximum Transfer: $1,000 per transaction
 
 ## Error Handling
 
 The bot includes comprehensive error handling:
-- Invalid phone number format detection
+- Invalid phone number detection
 - OTP validation and expiry checks
 - Rate limit monitoring
 - Transaction validation
@@ -93,6 +90,14 @@ All important events are logged with timestamps:
 - Money transfers and requests
 - Rate limit triggers
 - Error occurrences
+
+## Security Best Practices
+
+1. Never share your OTP with anyone
+2. Keep your phone number up to date
+3. Monitor your transaction history regularly
+4. Contact support if you notice suspicious activity
+5. Use strong passwords for your account
 
 ## Contributing
 
