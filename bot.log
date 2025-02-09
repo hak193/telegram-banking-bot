@@ -1,0 +1,1929 @@
+2025-02-09 09:44:22,457 - __main__ - INFO - Bot initialized successfully
+2025-02-09 09:44:22,458 - __main__ - ERROR - Error running bot: 'NoneType' object has no attribute 'run_repeating'
+2025-02-09 09:45:02,756 - __main__ - INFO - Bot initialized successfully
+2025-02-09 09:45:02,759 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-09 09:45:02,759 - __main__ - INFO - Scheduled cleanup job
+2025-02-09 09:45:02,759 - __main__ - INFO - Starting bot polling...
+2025-02-09 09:45:03,328 - httpx - INFO - HTTP Request: POST https://api.telegram.org/botf396a67a498f2ac86deff58f4871452a3517115ee8bdafcb275aafccc597e2c5/getMe "HTTP/1.1 404 Not Found"
+2025-02-09 09:45:03,329 - __main__ - ERROR - Error running bot: The token `f396a67a498f2ac86deff58f4871452a3517115ee8bdafcb275aafccc597e2c5` was rejected by the server.
+2025-02-09 10:01:46,787 - __main__ - ERROR - Error running bot: 'ApplicationBuilder' object has no attribute 'api_id'
+2025-02-09 10:26:39,302 - __main__ - ERROR - Error running bot: 'ApplicationBuilder' object has no attribute 'proxy_auth'
+2025-02-09 10:29:50,982 - __main__ - INFO - Bot initialized successfully
+2025-02-09 10:29:50,984 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-09 10:29:50,984 - __main__ - INFO - Scheduled cleanup job
+2025-02-09 10:29:50,984 - __main__ - INFO - Starting bot polling...
+2025-02-09 10:29:56,332 - __main__ - ERROR - Error running bot: Timed out
+2025-02-09 11:09:25,175 - __main__ - INFO - Bot initialized successfully
+2025-02-09 11:09:25,177 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-09 11:09:25,177 - __main__ - INFO - Scheduled cleanup job
+2025-02-09 11:09:25,177 - __main__ - INFO - Starting bot polling...
+2025-02-09 11:09:25,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getMe "HTTP/1.1 200 OK"
+2025-02-09 11:09:26,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-09 11:09:26,041 - apscheduler.scheduler - INFO - Added job "cleanup_expired_data" to job store "default"
+2025-02-09 11:09:26,041 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-09 11:09:26,042 - telegram.ext.Application - INFO - Application started
+2025-02-09 11:09:26,394 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:09:26,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:26,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:27,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:27,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:27,825 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:28,075 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:28,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:28,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:28,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:09:35,191 - apscheduler.executors.default - INFO - Running job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 16:24:35 UTC)" (scheduled at 2025-02-09 16:09:35.175688+00:00)
+2025-02-09 11:09:35,192 - __main__ - INFO - Cleanup: Removed 0 expired OTPs and 0 expired rate limits
+2025-02-09 11:09:35,192 - apscheduler.executors.default - INFO - Job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 16:24:35 UTC)" executed successfully
+2025-02-09 11:09:36,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:09:46,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:09:56,800 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:10:06,935 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:10:17,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:10:27,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:10:37,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:10:47,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:10:57,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:11:07,722 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:11:17,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:11:27,963 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:11:38,090 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:11:48,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:11:58,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:12:08,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:12:18,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:12:28,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:12:38,924 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:12:49,042 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:12:59,238 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:13:09,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:13:19,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:13:29,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:13:39,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:13:49,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:14:00,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:14:10,153 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:14:20,280 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:14:30,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:14:40,590 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:14:50,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:15:00,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:15:10,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:15:21,121 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:15:31,260 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:15:41,384 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:15:51,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:16:01,676 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:16:11,810 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:16:22,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:16:32,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:16:42,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:16:52,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:17:02,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:17:12,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:17:22,857 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:17:32,993 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:17:43,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:17:53,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:18:03,368 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:18:13,490 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:18:23,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:18:33,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:18:43,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:18:53,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:19:04,124 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:19:14,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:19:24,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:19:34,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:19:44,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:19:54,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:20:04,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:20:15,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:20:25,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:20:35,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:20:45,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:20:55,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:21:05,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:21:15,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:21:25,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:21:36,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:21:46,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:21:56,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:22:06,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:22:16,522 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:22:26,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:22:36,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:22:46,293 - __main__ - INFO - Bot initialized successfully
+2025-02-09 11:22:46,295 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-09 11:22:46,295 - __main__ - INFO - Scheduled cleanup job
+2025-02-09 11:22:46,295 - __main__ - INFO - Starting bot polling...
+2025-02-09 11:22:46,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:22:46,993 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getMe "HTTP/1.1 200 OK"
+2025-02-09 11:22:47,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-09 11:22:47,107 - apscheduler.scheduler - INFO - Added job "cleanup_expired_data" to job store "default"
+2025-02-09 11:22:47,107 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-09 11:22:47,107 - telegram.ext.Application - INFO - Application started
+2025-02-09 11:22:47,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:22:47,461 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:22:51,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:22:51,627 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:22:52,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:22:52,771 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:22:56,295 - apscheduler.executors.default - INFO - Running job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 16:37:56 UTC)" (scheduled at 2025-02-09 16:22:56.294136+00:00)
+2025-02-09 11:22:56,296 - __main__ - INFO - Cleanup: Removed 0 expired OTPs and 0 expired rate limits
+2025-02-09 11:22:56,296 - apscheduler.executors.default - INFO - Job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 16:37:56 UTC)" executed successfully
+2025-02-09 11:22:57,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:22:57,422 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:22:59,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:22:59,055 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:04,485 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:04,487 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:06,877 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:06,878 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:10,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:10,389 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:13,902 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:13,904 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:19,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:19,327 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:24,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:24,743 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:32,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:32,707 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:40,650 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:40,651 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:50,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:23:52,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:52,385 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:23:56,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:23:56,511 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:24:03,506 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:24:13,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:24:14,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:24:14,002 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:24:18,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:24:18,156 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:24:25,154 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:24:35,183 - apscheduler.executors.default - INFO - Running job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 16:39:35 UTC)" (scheduled at 2025-02-09 16:24:35.175688+00:00)
+2025-02-09 11:24:35,184 - __main__ - INFO - Cleanup: Removed 0 expired OTPs and 0 expired rate limits
+2025-02-09 11:24:35,184 - apscheduler.executors.default - INFO - Job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 16:39:35 UTC)" executed successfully
+2025-02-09 11:24:35,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:24:44,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:24:44,148 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:24:48,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:24:48,269 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:24:55,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:25:05,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:25:15,534 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:25:18,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:25:18,637 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:25:22,758 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:25:22,759 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:25:29,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:25:39,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:25:49,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:25:53,116 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:25:53,117 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:25:57,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:25:57,257 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:26:04,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:26:14,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:26:24,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:26:27,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:26:27,611 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:26:31,736 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:26:31,737 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:26:38,738 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:26:48,859 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:26:58,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:27:02,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:27:02,095 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:27:06,216 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:27:06,217 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:27:13,217 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:27:23,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:27:33,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:27:36,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:27:36,605 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:27:40,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:27:40,728 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 750, in _network_loop_retry
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 744, in do_action
+    return action_cb_task.result()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 371, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:27:47,725 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:27:57,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:28:07,956 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:28:14,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 409 Conflict"
+2025-02-09 11:28:14,094 - telegram.ext.Updater - ERROR - Error while calling `get_updates` one more time to mark all fetched updates as read: %s. Suppressing error to ensure graceful shutdown. When polling for updates is restarted, updates may be fetched again. Please adjust timeouts via `ApplicationBuilder` or the parameter `get_updates_request` of `Bot`.
+Traceback (most recent call last):
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_updater.py", line 432, in _get_updates_cleanup
+    await self.bot.get_updates(
+    ...<8 lines>...
+    )
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 650, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 4480, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 619, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\ext\_extbot.py", line 354, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\_bot.py", line 648, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 202, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\a1b2a\Desktop\telegram-banking-bot\venv\Lib\site-packages\telegram\request\_baserequest.py", line 385, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-02-09 11:28:14,099 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-02-09 11:28:14,099 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-09 11:28:14,111 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-09 11:28:16,676 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:28:16,677 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-02-09 11:28:16,678 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2025-02-09 11:28:16,703 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-09 11:54:41,539 - __main__ - INFO - Bot initialized successfully
+2025-02-09 11:54:41,542 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-09 11:54:41,543 - __main__ - INFO - Scheduled cleanup job
+2025-02-09 11:54:41,543 - __main__ - INFO - Starting bot polling...
+2025-02-09 11:54:42,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getMe "HTTP/1.1 200 OK"
+2025-02-09 11:54:42,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/deleteWebhook "HTTP/1.1 200 OK"
+2025-02-09 11:54:42,425 - apscheduler.scheduler - INFO - Added job "cleanup_expired_data" to job store "default"
+2025-02-09 11:54:42,425 - apscheduler.scheduler - INFO - Scheduler started
+2025-02-09 11:54:42,425 - telegram.ext.Application - INFO - Application started
+2025-02-09 11:54:42,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:54:43,038 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:54:43,272 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:54:51,549 - apscheduler.executors.default - INFO - Running job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 17:09:51 UTC)" (scheduled at 2025-02-09 16:54:51.540014+00:00)
+2025-02-09 11:54:51,550 - __main__ - INFO - Cleanup: Removed 0 expired OTPs and 0 expired rate limits
+2025-02-09 11:54:51,550 - apscheduler.executors.default - INFO - Job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 17:09:51 UTC)" executed successfully
+2025-02-09 11:54:52,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:54:59,848 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:00,350 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:55:05,695 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:06,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-09 11:55:06,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:55:15,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:20,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:20,504 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-02-09 11:55:20,504 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/ACd92d35abb342c43469a7211c175e19c4/Messages.json
+2025-02-09 11:55:20,504 - twilio.http_client - INFO - Headers:
+2025-02-09 11:55:20,505 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-02-09 11:55:20,505 - twilio.http_client - INFO - Accept : application/json
+2025-02-09 11:55:20,505 - twilio.http_client - INFO - User-Agent : twilio-python/9.4.4 (Windows AMD64) Python/3.13.1
+2025-02-09 11:55:20,505 - twilio.http_client - INFO - X-Twilio-Client : python-9.4.4
+2025-02-09 11:55:20,505 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-02-09 11:55:20,505 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-02-09 11:55:20,634 - twilio.http_client - INFO - Response Status Code: 401
+2025-02-09 11:55:20,634 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '107', 'Connection': 'keep-alive', 'Date': 'Sun, 09 Feb 2025 16:55:19 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '20003', 'Twilio-Request-Id': 'RQ3f30060a44fe387473f4315ce9c93501', 'Twilio-Request-Duration': '0.014', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Www-Authenticate': 'Basic realm="Twilio API"', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 9a7233ae68a3338294c89b1bf53bc426.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'IAD61-P2', 'X-Amz-Cf-Id': 'DgGExv5rEHBLUlin8JLJmsSeS-s3dKm2CSLpGFMSUQtsx1_0qYSZww=='}
+2025-02-09 11:55:20,635 - __main__ - ERROR - Failed to send SMS: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/ACd92d35abb342c43469a7211c175e19c4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Authenticate[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20003[0m
+
+
+2025-02-09 11:55:20,635 - __main__ - ERROR - Failed to send OTP to +12******366
+2025-02-09 11:55:21,124 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:55:30,755 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:38,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:38,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:55:44,331 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:44,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:55:54,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:56,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:55:57,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:56:02,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:56:02,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-02-09 11:56:02,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:56:10,982 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:56:16,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:56:17,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/sendMessage "HTTP/1.1 200 OK"
+2025-02-09 11:56:26,458 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:56:36,576 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:56:46,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:56:56,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:57:06,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:57:17,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:57:27,174 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:57:37,294 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:57:47,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:57:57,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:58:07,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:58:17,776 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:58:27,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:58:38,014 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:58:48,124 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:58:58,246 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:59:08,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:59:18,484 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:59:28,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:59:38,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:59:48,861 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 11:59:58,979 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:00:09,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:00:19,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:00:29,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:00:39,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:00:49,571 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:00:59,687 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:01:09,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:01:19,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:01:30,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:01:40,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:01:50,292 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:02:00,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:02:10,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:02:20,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:02:30,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:02:40,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:02:51,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:03:01,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:03:11,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:03:21,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:03:31,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:03:41,613 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:03:51,729 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:04:01,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:04:11,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:04:22,116 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:04:32,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:04:42,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:04:52,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:05:02,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:05:12,751 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:05:22,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:05:32,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:05:43,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:05:53,241 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:06:03,359 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:06:13,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:06:23,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:06:33,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:06:43,873 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:06:53,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:07:04,111 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:07:14,229 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:07:24,352 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:07:34,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:07:44,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:07:54,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:08:04,842 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:08:14,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:08:25,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:08:35,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:08:45,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:08:55,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:09:05,567 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:09:15,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:09:25,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:09:35,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:09:46,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:09:51,548 - apscheduler.executors.default - INFO - Running job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 17:24:51 UTC)" (scheduled at 2025-02-09 17:09:51.540014+00:00)
+2025-02-09 12:09:51,548 - __main__ - INFO - Cleanup: Removed 1 expired OTPs and 0 expired rate limits
+2025-02-09 12:09:51,549 - apscheduler.executors.default - INFO - Job "cleanup_expired_data (trigger: interval[0:15:00], next run at: 2025-02-09 17:24:51 UTC)" executed successfully
+2025-02-09 12:09:56,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:10:06,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:10:16,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:10:26,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:10:36,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:10:46,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:10:57,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:11:07,324 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
+2025-02-09 12:11:17,437 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w/getUpdates "HTTP/1.1 200 OK"
