@@ -1937,3 +1937,9 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2025-02-09 12:12:27,612 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
 2025-02-09 12:12:27,613 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2025-02-09 12:12:27,635 - telegram.ext.Application - INFO - Application.stop() complete
+2025-02-09 12:32:40,963 - __main__ - INFO - Bot initialized successfully
+2025-02-09 12:32:40,967 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-09 12:32:40,967 - __main__ - INFO - Scheduled cleanup job
+2025-02-09 12:32:40,967 - __main__ - INFO - Starting bot polling...
+2025-02-09 12:32:41,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/botf396a67a498f2ac86deff58f4871452a3517115ee8bdafcb275aafccc597e2c5/getMe "HTTP/1.1 404 Not Found"
+2025-02-09 12:32:41,757 - __main__ - ERROR - Error running bot: The token `f396a67a498f2ac86deff58f4871452a3517115ee8bdafcb275aafccc597e2c5` was rejected by the server.
