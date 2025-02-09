@@ -12,7 +12,7 @@ A secure Telegram bot for banking operations with OTP verification via Twilio SM
 - 📊 Transaction history
 - ⚡ Rate limiting and security measures
 
-## Setup
+## Setups
 
 1. Install dependencies:
 ```bash
