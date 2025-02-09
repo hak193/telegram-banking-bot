@@ -107,10 +107,10 @@ def config():
     try:
         with open("bot.py", "r") as f:
             config_data = {
-                "telegram_token": "7225913890:AAHfvAAeqYbc-0wIsxBFAqgeFHJ5G6AH24w",
-                "twilio_account_sid": "ACd92d35abb342c43469a7211c175e19c4",
-                "twilio_auth_token": "d852ee26fd60230e17f8ca6f4b372612",
-                "twilio_phone_number": "+18885752860",
+                "telegram_token": "",
+                "twilio_account_sid": "",
+                "twilio_auth_token": "",
+                "twilio_phone_number": "",
             }
     except Exception as e:
         logger.error(f"Error reading config: {str(e)}")

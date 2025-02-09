@@ -24,10 +24,10 @@ otp_store = {}
 rate_limit_store = {}
 
 # Load configuration
-TWILIO_ACCOUNT_SID = "ACd92d35abb342c43469a7211c175e19c4"
-TWILIO_AUTH_TOKEN = "d852ee26fd60230e17f8ca6f4b372612"
-TWILIO_PHONE_NUMBER = "+18885752860"
-WEBAPP_URL = "https://bfcd0268e6.tapps.global/latest"
+TWILIO_ACCOUNT_SID = ""
+TWILIO_AUTH_TOKEN = ""
+TWILIO_PHONE_NUMBER = ""
+WEBAPP_URL = ""
 
 # Initialize Twilio client
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
